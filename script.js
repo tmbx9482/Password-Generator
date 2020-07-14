@@ -23,8 +23,8 @@ function generatePassword() {
 
 
   // Requirement Lines 20 & 26 on "README.md": 
-  // 26: THEN I choose lowercase, uppercase, numeric, and/or special characters
   // 20: THEN I am presented with a series of prompts for password criteria
+  // 26: THEN I choose lowercase, uppercase, numeric, and/or special characters
   // These are the strings of all the possible characters the password can contain.  
   // These strings were referenced from:
   // 1: https://www.owasp.org/index.php/Password_special_characters)
