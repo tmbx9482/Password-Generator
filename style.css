@@ -21,19 +21,22 @@ body {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: aquamarine;
+  background-color: rgba(245, 135, 10, 0.877);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: rgb(143, 8, 8);
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: initial underline rgb(143, 8, 8);
 }
 
 .card {
-  background-color: hsl(155, 100%, 37%);
-  border-radius: 5px;
+  background-color: rgb(143, 20, 11) border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
@@ -52,8 +55,19 @@ header {
   height: 2px;
 }
 
+.card-header {
+  color: rgb(143, 8, 8);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+
+
+}
+
 .card-body {
   min-height: 100px;
+  background-color: darkgoldenrod;
+
 }
 
 .card-footer {
@@ -76,10 +90,9 @@ header {
 
 .btn {
   border: none;
-  background-color: rgb(162, 197, 5);
+  background-color: rgb(233, 191, 5);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(238, 204, 10, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
@@ -92,7 +105,7 @@ header {
 
 button[disabled] {
   cursor: default;
-  background: #c0c7cf;
+  background: #042a55;
 }
 
 .float-right {
